@@ -1,4 +1,4 @@
-const port = 3000
+const port = 3000 || process.env.PORT
 
 const kannada_syllabary_json_location = "script/syllabary/syllabary_Kannada.json"
 
